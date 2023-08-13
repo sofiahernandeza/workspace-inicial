@@ -197,17 +197,18 @@ a.custom-card:hover {
 }
 body #login {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url("fondo.png");
-  background-repeat: no-repeat;
- 
+}
 
+.mt-5 {
+  background-image: url("https://github.com/sofiahernandeza/workspace-inicial/blob/1607ebc278914f108907b3a82fc733709815d9ef/img/fondo.png?raw=true");
+  background-repeat: no-repeat;
 }
 .form-login {
 width: 400px;
 height: 400px;
 background: #e69335;
 margin: auto;
-margin-top: 180px;
+margin-top: 80px;
 box-shadow: 7px 13px 37px #000;
 padding: 20px 30px;
 color: white;
