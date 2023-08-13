@@ -195,10 +195,11 @@ a.custom-card:hover {
   box-sizing: border-box;
 
 }
-body {
+body #login {
   font-family: Arial, Helvetica, sans-serif;
   background-image: url("fondo.png");
   background-repeat: no-repeat;
+ 
 
 }
 .form-login {
