@@ -19,9 +19,19 @@
 <body>
   <main class="mt-5">
     <div class="container">
-      <div class="alert alert-danger text-center" role="alert">
-        <h4 class="alert-heading">Funcionalidad en desarrollo</h4>
-      </div>
+      <form class="form-login">
+        <h5>Por favor, inicia sesión</h5>
+        <label for="usuario">Usuario</label>
+        <input class="controls" type="text" id="usurio" name="usuario" value="" placeholder="Correo electrónico">
+        <label for="contrasenia">Contraseña</label>
+        <input class="controls" type="password" id="contasenia" name="contrasenia" value="" placeholder="Contraseña">
+        <input class="button" type="submit" name="" value="Ingresar">
+        <label class="remember-me">
+        <input id="checkbox" type="checkbox" vaule="Recordarme">
+        Recrodarme
+        </label>
+        <p><a href="#">¿Olvidaste tu contraseña?</a></p>
+        </form>
     </div>
   </main>
   <footer class="text-muted">
