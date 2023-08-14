@@ -12,10 +12,23 @@ fetch(LIST_URL)
   })
   .then(data => {
     // Aquí puedes trabajar con los datos obtenidos en formato JSON
-    console.log(data);
+    const productsList = document.getElementById('container');
+        data.products.forEach(product => {
+            const li = document.createElement('li');
+            li.className = "product-item";
+            li.innerHTML = 
+               `<h5>${product.name}</h5>
+                <p>${product.description}</p>
+                <p>Price: ${product.cost} ${product.currency}</p>
+                <p>Sold: ${product.soldCount}</p>
+                <img src="${product.image}" alt="${product.name}"> `
+            ;
+            productsList.appendChild(li);
+            console.log(data);
   })
   .catch(error => {
     // En caso de error, manejar la excepción
     console.error('Error al obtener los datos:', error);
   });
 
+})
