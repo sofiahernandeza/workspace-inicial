@@ -188,7 +188,7 @@ a.custom-card:hover {
 .checked {
   color: orange;
 }
-
+/*comienzo estilo login.html*/
 * {
   margin: 0;
   padding: 0;
@@ -205,7 +205,7 @@ body #login {
 }
 .form-login {
 width: 400px;
-height: 400px;
+height: 450 px;
 background: #e69335;
 margin: auto;
 margin-top: 80px;
@@ -266,4 +266,22 @@ input[type="submit"]:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/*comienzo estilo products.html*/
+#container {
+  margin: auto;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+main #container h5 {
+  font-weight: bold
+}
+
+.product-item {
+  
+  padding: 5px;
+  margin: 5px;
+  list-style: none;
 }
